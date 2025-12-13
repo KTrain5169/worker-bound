@@ -1,5 +1,5 @@
 {
-  "name": "worker-bound-all-loader-cloudflare",
+  "name": "worker-bound-many-loader-cloudflare",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
