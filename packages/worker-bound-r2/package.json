@@ -1,7 +1,7 @@
 {
   "name": "worker-bound-r2",
   "version": "1.0.0",
-  "description": "",
+  "description": "A package to help you create a R2 connector to worker-bound.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
