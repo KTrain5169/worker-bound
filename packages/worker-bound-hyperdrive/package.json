@@ -1,7 +1,7 @@
 {
-  "name": "worker-bound-r2-loader-aws-s3",
+  "name": "worker-bound-hyperdrive",
   "version": "1.0.0",
-  "description": "A worker-bound R2 connector that allows conversion of R2 calls to any S3-compatible bucket.",
+  "description": "A package to help you create a Hyperdrive connector to worker-bound.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

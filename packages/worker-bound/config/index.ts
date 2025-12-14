@@ -5,6 +5,7 @@ import { KVConfigInterface } from "./kv";
 import { R2ConfigInterface } from "./r2";
 
 export interface ConfigShape {
+    plugins?: []; // intended for future use
     workerd?: any; // workerd runtime API itself ig
     bindings?: {
         /** R2 Object Storage binding configs */

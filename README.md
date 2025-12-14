@@ -10,7 +10,7 @@ An array of bindings can be set to each binding type, so long as each binding is
 
 Each binding specified can be set to one of 3 modes:
 
-- `throw` - If the binding is accessed, the binding will return an `undefined` value, leading to a thrown error.
+- `throw` - If the binding is accessed, the binding will return polyfilled shims, leading to a thrown error when called.
 - `stub` - A stubbed binding object is passed as the binding in the Worker. This makes it easy to test or debug your Worker.
 - `connect` - Using the provided configuration, `worker-bound` will establish the binding and pass it to the Worker when the binding is accessed.
 
